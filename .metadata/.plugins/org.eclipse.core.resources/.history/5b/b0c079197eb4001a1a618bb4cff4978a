@@ -1,0 +1,18 @@
+
+public class Employe {
+	private String nom; //attribut nom
+	private float  salaireNet; // nos attributs sont de même type float
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+  
+		System.out.println("Hello word");
+   
+      System.out.println("-------Ecrivant maintenant notre algorithme en Java--------");
+   
+      Employe em = new Employe("Anouchka", 2000)
+   
+	}
+
+}

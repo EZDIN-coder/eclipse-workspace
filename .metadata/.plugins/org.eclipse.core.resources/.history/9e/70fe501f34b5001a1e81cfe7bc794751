@@ -1,0 +1,48 @@
+
+public class voiture {
+	private String nom ;
+	private String marque;
+	private String modele;
+	private String couleur;
+	private double vitesse;
+	private double distance;
+	
+	public voiture(String n, String ma,String mo,String co,double V,double di) {
+    	this.nom =n;
+    	this.marque = ma;
+    	this.modele = mo;
+    	this.couleur = co;
+    	this.vitesse =V;
+    	this.distance =di;
+	}
+	 public void affiche () {
+		   
+	    	   double temps; 
+	    
+			System.out.println("Vous roulez a "+vitesse+" et pour une distance de " + distance+" Vous mettez un temps de "+temps);
+	    
+	    }
+	 public double temps(double vitesse) {
+			
+			double temps = 100/vitesse;
+			
+			return temps;
+	 }
+	 public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			/*
+	         */
+			voiture V1 = new voiture ("Clio" , 120);
+			voiture V2 = new Employe ("Ezdin" , 5000);
+			Employe em3 = new Employe ("rami" , 6000);
+			em1.affiche();
+			em2.affiche();
+			em3.affiche();
+			
+			return salaireNet ;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

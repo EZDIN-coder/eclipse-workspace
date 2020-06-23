@@ -1,0 +1,29 @@
+ import java.util.Scanner;
+public class Employe {
+	
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+         *
+		*
+        */
+      System.out.println("Ecrivant maintenant notre algorithme en JAVA");
+//       String nom = "Anouchka"; //ici je declare et  j'initialise mes variables
+//       double salaireBrute=2000;
+//       double taux=20;
+//       double retenues= salaireBrute*0.2;
+//       double salaireNet = salaireBrute - retenues;
+//       
+       Scanner sc = new Scanner(System.in);//on active le clavier
+       String nom = sc.nextLine();
+       
+//       System.out.println("votre nom est "+nom+" vous gagnez "+salaireBrute);
+//      
+//       System.out.println("Votre salaire net est "+salaireNet);
+       
+   
+	}
+
+}

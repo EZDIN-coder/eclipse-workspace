@@ -1,0 +1,20 @@
+
+public class Employe {
+	
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+         *
+		*
+        */
+      System.out.println("Ecrivant maintenant notre algorithme en JAVA");
+       String nom = "Anouchka"; //ici je declare et je j'initialise mes variables
+       float salaireBrute=2000;
+       System.out.println("votre nom est "+nom+" vous gagnez "+salaireBrute);
+      
+   
+	}
+
+}

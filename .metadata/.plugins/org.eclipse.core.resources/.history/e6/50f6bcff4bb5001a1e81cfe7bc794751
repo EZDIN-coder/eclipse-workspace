@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class TVA {
+	private double prixHT;
+	private double prixTTC;
+	private double TVA;
+	
+	public TVA (double t,double ht,double tc) {
+		this.TVA=t;
+		this.prixHT=ht;
+		this.prixTTC=tc;
+	}
+ public void affiche () {
+	 
+	
+	System.out.println("Le prixTTC = "+prixTTC+"et le prixHT = "+prixHT"  le TVA est"+TVA);
+ }
+ public double TVA () {
+	 double prixTTC = prixHT*1.2;
+	 double TVA = prixTTC - prixHT;
+	return TVA;
+}
+ 
+ 
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}
